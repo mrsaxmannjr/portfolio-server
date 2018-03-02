@@ -16,7 +16,7 @@ app.post("/send", (req, res) => {
     from: process.env.FROM_EMAIL,
     to: process.env.TO_EMAIL,
     subject: "Site Contact Form",
-    text: `From: ${req.body.email}\n Sent: ${new Date()} \nMessage:\n${req.body.message}`,
+    text: `From: ${req.body.email}\n Name: ${req.body.name} \n Sent: ${new Date()} \nMessage:\n${req.body.message}`,
   };
 
   mailer

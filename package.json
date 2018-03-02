@@ -1,5 +1,5 @@
 {
-  "name": "nodemailer-example",
+  "name": "portfolio-contact",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,11 +8,11 @@
     "dev": "nodemon index.js"
   },
   "keywords": [],
-  "author": "w3cj <cj@null.computer>",
+  "author": "mrsaxmannjr",
   "license": "MIT",
   "dependencies": {
     "body-parser": "^1.18.2",
-    "dotenv": "^5.0.0",
+    "dotenv": "^5.0.1",
     "express": "^4.16.2",
     "nodemailer": "^4.4.2"
   },
